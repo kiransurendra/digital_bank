@@ -160,6 +160,7 @@ class digital_bank(QtGui.QMainWindow, digitalbankUI.Ui_MainWindow, digital_bank_
                 self.female_radioButton.setChecked(True)
             else:
                 self.other_radioButton.setChecked(True)
+            print('hai')
 
 
 
